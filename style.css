@@ -50,7 +50,8 @@
     font-weight: 900;
 }
 
-.container {
+.container {width: 100%;
+    
     height: 100%;
 }
 
@@ -564,4 +565,70 @@ a:active {
 
 .bolo:hover {
     background-color: white;
+}
+
+
+
+   @media screen and (min-width: 300px) and (max-width: 480px) {
+    .baxa1, .baxa2, .baxa3, .baxa4, .retro1,.retro2,.retro3,.retro4 {
+    position: relative;
+    height: auto;
+        left: 0;
+        width: auto;
+    
+}
+.container3 {width: 100%;
+    height: 40%;
+   margin-top: 70%;
+   
+}
+       .container4 {width: 100%;
+    height: 150%;
+   margin-top: 60%;
+   
+}
+      .container4 .txt1 {margin-top: 0%;}
+ .box11 {
+    position: absolute;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+}  
+       .box10 {height: 200%;}
+       .containerb1{
+             height: 300%;
+   
+       }
+       .container5{
+             height: 250%;
+   margin-top: 0%;
+       }
+        .container6{
+             height: 250%;
+   margin-top: 0%;
+       }
+        .box12 {
+    position: absolute;
+    left: 0%;
+            margin-top: 60%;
+    height: 100%;
+    width: 100%;
+}   
+       .txt1 {margin-top: 75%;}
+       .box13{
+           margin-top: 0px;
+           position: relative;       }
+       .mobtable table, th, td{max-width: 8vw;
+}
+       .sqr2{display: none;}
+       .box110{
+          
+           width: 100%;
+       }
+       .footer{
+           margin-top: 300%;
+    
+}
+       .sqr4 li{font-size: 60%}
+       .bolo{display: none}
 }
